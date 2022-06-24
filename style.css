@@ -1,0 +1,149 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-card{
+    width: 250px;
+    height: 320px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+.second-card{
+    width: 250px;
+    height: 320px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.third-card{
+    width: 250px;
+    height: 320px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+
+.main-content {
+    display: flex;
+    margin: 10rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-sedans {
+    display: flex;
+    padding: 1.25em 0 0 1.85em;
+    align-items: center;
+}
+
+img {
+    width: 48px;
+    height: 28px;
+}
+
+.text-sedans {
+    padding: 0 2em 3em 2em;
+}
+
+h2 {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    font-family: 'Lexend Deca' sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn-sedans {
+padding: 1.25em 1.85em;
+}
+
+.btn-firstcard {
+    border-radius: hsl(0, 0%, 95%);
+    border-radius: 100px;
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.btn-firstcard:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.logo-suvs {
+    display: flex;
+    padding: 1.25em 0 0 1.85em;
+    align-items: center;
+}
+
+.text-suvs {
+    padding: 0 2em 3em 2em;
+}
+
+.btn-suvs {
+    padding: 1.25em 1.85em;
+}
+
+.btn-secondcard {
+    border-radius: hsl(0, 0%, 95%);
+    border-radius: 100px;
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.btn-secondcard:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.logo-luxury {
+    display: flex;
+    padding: 1.25em 0 0 1.85em;
+    align-items: center;
+}
+
+.text-luxury {
+    padding: 0 2em 3em 2em;
+}
+
+.btn-luxury {
+    padding: 1.25em 1.85em;
+}
+
+.btn-thirdcard {
+    border-radius: hsl(0, 0%, 95%);
+    border-radius: 100px;
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.btn-thirdcard:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
